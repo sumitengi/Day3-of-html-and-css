@@ -1,0 +1,52 @@
+h1{
+    width: 600px;
+    text-align: center;
+    margin: 20px 0px;
+}
+.main{
+    width: 600px;
+    height: 200px;
+    background-color: green;
+    padding: 10px;
+    transition: 0.5s;
+}
+.box1{
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    padding: 10px;
+    background-color: orange;
+    float: left;
+    transition: 0.5s;
+}
+.box2{
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    padding: 10px;
+    background-color: blue;
+    float: left;
+}
+.box3{
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    padding: 10px;
+    background-color: brown;
+    float: left;
+    transition: 0.5s;
+}
+.main:hover{
+    width: 800px;
+    height: 250px;
+    background-color: yellow;
+}
+.main:hover .box1{
+    width: 200px;
+    height: 200px;
+    background-color: purple;
+}
+.box2:hover ~.box3{
+    border-radius: 50%;
+    background-color: black;
+}
